@@ -166,4 +166,5 @@ async def admin_save_or_user_request(msg: types.Message):
 
 
 if __name__ == '__main__':
+    keep_alive()  # 🟢 Botni jonli saqlash
     executor.start_polling(dp, skip_updates=True)
